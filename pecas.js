@@ -16,4 +16,6 @@ if (peso < 100){
 let nomePecas = "disco de freio"
 if (nomePecas.length > 3){
     console.log("O nome deve ter mais que 3 caracteres, digite um nome adeguado")
+}else{
+    console.log("nome menor que três inadeguado")
 }
